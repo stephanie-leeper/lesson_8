@@ -1,0 +1,14 @@
+[
+  { "month": "Jan", "year": 2025, "revenue": 42000, "visitors": 12000, "conversions": 2.7, "orders": 324 },
+  { "month": "Feb", "year": 2025, "revenue": 43500, "visitors": 11500, "conversions": 2.9, "orders": 334 },
+  { "month": "Mar", "year": 2025, "revenue": 46000, "visitors": 13000, "conversions": 3.1, "orders": 403 },
+  { "month": "Apr", "year": 2025, "revenue": 48000, "visitors": 14000, "conversions": 3.0, "orders": 420 },
+  { "month": "May", "year": 2025, "revenue": 51000, "visitors": 15500, "conversions": 3.3, "orders": 512 },
+  { "month": "Jun", "year": 2025, "revenue": 54500, "visitors": 17000, "conversions": 3.5, "orders": 595 },
+  { "month": "Jul", "year": 2025, "revenue": 60000, "visitors": 18500, "conversions": 3.8, "orders": 703 },
+  { "month": "Aug", "year": 2025, "revenue": 63000, "visitors": 18000, "conversions": 3.6, "orders": 648 },
+  { "month": "Sep", "year": 2025, "revenue": 67000, "visitors": 16000, "conversions": 3.2, "orders": 512 },
+  { "month": "Oct", "year": 2025, "revenue": 71000, "visitors": 15000, "conversions": 3.0, "orders": 450 },
+  { "month": "Nov", "year": 2025, "revenue": 76000, "visitors": 14500, "conversions": 2.8, "orders": 406 },
+  { "month": "Dec", "year": 2025, "revenue": 80000, "visitors": 17000, "conversions": 3.4, "orders": 578 }
+]
