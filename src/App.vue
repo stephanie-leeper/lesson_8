@@ -24,10 +24,6 @@ const months = [
 const monthOptions = ['ALL', ...months]
 const selectedMonth = ref('ALL')
 
-const filteredData = computed(() => {
-  if (selectedMonth.value === 'ALL') return metrics
-  return metrics.filter(m => m.month === selectedMonth.value)
-})
 
 function getPrevMonthIndex(idx: number) {
   return idx === 0 ? null : idx - 1
