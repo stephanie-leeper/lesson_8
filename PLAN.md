@@ -1,26 +1,25 @@
 # My Dashboard - Project Brief
 
 ## What is this?
-A single-page analytics dashboard showing monthly business metrics.
-Think Shopify admin or a simple Google Analytics view.
+An internal executive dashboard for FastForward Logistics, built as part of the Protogen 200s Capstone. The dashboard gives the VP of Operations a single view of key freight and supply chain metrics, updated by month.
 
 ## Data
 Generate a fake dataset as a JSON file (src/data/metrics.json).
 12 months of data (Jan-Dec 2025), each month containing:
-- revenue (dollar amount, trending upward with some variation)
-- visitors (number, seasonal pattern - higher in summer)
-- conversions (percentage, fluctuates between 2-5%)
-- orders (number, correlates loosely with visitors)
+- Total Shipments: Volume of freight shipments processed (number, values between 150-400 with natural variations)
+- On-Time Rate: Percentage of shipments delivered on time (percentage, fluctuates between 80-95%)
+- Open Exceptions: Count of unresolved shipment issues (number, should loosely correlate to total shipment volume)
+- Best Region: The top-performing region for the selected period (values are North, South, East, and West, should be selected based on highest on-time rates)
 
 ## Layout (Vuetify)
 - v-app-bar at the top with the dashboard title and a month picker
 - The month picker should default to showing ALL months
 - When a specific month is selected, all cards and charts filter to that month. When "ALL" is selected, show the full year.
-- Below the app bar: a row of 4 summary cards (v-card) showing the key metrics - revenue, visitors, conversions, orders
+- Below the app bar: a row of 4 summary cards (v-card) showing the key metrics - Total shipments, ON-time rate, Open exceptions, Best region
 - Below the cards: a row of 2 charts
-  - Left: Bar chart showing monthly revenue
-  - Right: Line chart showing visitors over time
-- Below that: one full-width area chart showing conversions trend
+  - Left: Line chart showing all four regions on-time rates
+  - Right: Line chart showing all four regions open exceptions
+- Below that: one full-width area chart showing a comparison of all four regions total shipments, open exceptions, and on-time rate
 - Use v-container, v-row, v-col for responsive grid layout
 
 ## Interactions
